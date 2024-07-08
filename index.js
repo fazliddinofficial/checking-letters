@@ -11,10 +11,10 @@ var word = arr[2];
 // }
 
 if(word.startsWith(letter)){
-    console.log(true);
+    console.log("they are match");
 }
 else{
-    console.log(false);
+    console.log("they are not match");
 }
 console.log(word.startsWith(letter));
 console.log(arr);
